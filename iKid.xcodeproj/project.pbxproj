@@ -17,6 +17,7 @@
 		4997A1C51EB196410067E476 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997A1C41EB196410067E476 /* iKidUITests.swift */; };
 		4997A1D31EB282B50067E476 /* KnockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997A1D21EB282B50067E476 /* KnockViewController.swift */; };
 		4997A1D51EB28EFE0067E476 /* WhosThereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997A1D41EB28EFE0067E476 /* WhosThereViewController.swift */; };
+		4997A1D71EB2A4B80067E476 /* KnockBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997A1D61EB2A4B80067E476 /* KnockBackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4997A1C61EB196410067E476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4997A1D21EB282B50067E476 /* KnockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockViewController.swift; sourceTree = "<group>"; };
 		4997A1D41EB28EFE0067E476 /* WhosThereViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosThereViewController.swift; sourceTree = "<group>"; };
+		4997A1D61EB2A4B80067E476 /* KnockBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockBackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				4997A1A81EB196400067E476 /* Main.storyboard */,
 				4997A1AB1EB196400067E476 /* Assets.xcassets */,
 				4997A1D21EB282B50067E476 /* KnockViewController.swift */,
+				4997A1D61EB2A4B80067E476 /* KnockBackViewController.swift */,
 				4997A1D41EB28EFE0067E476 /* WhosThereViewController.swift */,
 				4997A1AD1EB196400067E476 /* LaunchScreen.storyboard */,
 				4997A1B01EB196400067E476 /* Info.plist */,
@@ -275,6 +278,7 @@
 				4997A1D31EB282B50067E476 /* KnockViewController.swift in Sources */,
 				4997A1A31EB196400067E476 /* AppDelegate.swift in Sources */,
 				4997A1D51EB28EFE0067E476 /* WhosThereViewController.swift in Sources */,
+				4997A1D71EB2A4B80067E476 /* KnockBackViewController.swift in Sources */,
 				4997A1A51EB196400067E476 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

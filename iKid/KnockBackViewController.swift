@@ -1,5 +1,5 @@
 //
-//  KnockViewController.swift
+//  KnockBackViewController.swift
 //  iKid
 //
 //  Created by studentuser on 4/27/17.
@@ -8,15 +8,16 @@
 
 import UIKit
 
-class KnockViewController: UIViewController {
+class KnockBackViewController: UIViewController {
 
-    
     var count = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
+        // Do any additional setup after loading the view.
     }
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -25,7 +26,7 @@ class KnockViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if count < 2 {
-            performSegue(withIdentifier: "toKnock", sender:self)
+            performSegue(withIdentifier: "backKnock", sender:self)
         } else {
             performSegue(withIdentifier: "whosthere", sender: self)
         }
@@ -33,11 +34,12 @@ class KnockViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toKnock"{
-            let backKnockView = segue.destination as! KnockBackViewController
+        if segue.identifier == "backKnock"{
+            let backKnockView = segue.destination as! KnockViewController
             backKnockView.count = self.count + 1
         }
     }
+    
     
 
     /*
