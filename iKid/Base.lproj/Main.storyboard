@@ -46,11 +46,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="AZ0-0O-IWA" secondAttribute="trailing" constant="20" id="n8M-Vn-mPE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dad" image="first" selectedImage="first" id="s6C-6Z-U8T"/>
+                    <navigationItem key="navigationItem" id="su4-Fr-tq9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="91W-JF-H6u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-1060"/>
+            <point key="canvasLocation" x="1656.521739130435" y="-1060.5978260869565"/>
         </scene>
         <!--DadPunchline-->
         <scene sceneID="GOO-Q5-mWW">
@@ -79,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O5e-md-39Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1720.8" y="-1053.8230884557722"/>
+            <point key="canvasLocation" x="2627.536231884058" y="-1054.0760869565217"/>
         </scene>
         <!--Good-->
         <scene sceneID="hNz-n2-bh7">
@@ -117,11 +117,11 @@
                             <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="Qd7-W3-gNI" secondAttribute="bottom" id="p0l-vp-o8M"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Good" image="first" selectedImage="first" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="Vee-fK-q5N"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-320.68965517241384"/>
+            <point key="canvasLocation" x="2563.768115942029" y="-321.19565217391306"/>
         </scene>
         <!--GoodPunchLine-->
         <scene sceneID="3H5-tF-qkM">
@@ -150,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vfY-P0-arF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1732" y="-309.89505247376314"/>
+            <point key="canvasLocation" x="3546.376811594203" y="-310.59782608695656"/>
         </scene>
         <!--Pun-->
         <scene sceneID="wg7-f3-ORb">
@@ -188,11 +188,11 @@
                             <constraint firstAttribute="trailingMargin" secondItem="QDW-qR-JuL" secondAttribute="trailing" constant="20" id="iJZ-Vk-V7M"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pun" image="first" selectedImage="first" id="cPa-gy-q4n"/>
+                    <navigationItem key="navigationItem" id="Iv9-cI-fPy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.34114202049773" y="359.1796875"/>
+            <point key="canvasLocation" x="2563.768115942029" y="358.69565217391306"/>
         </scene>
         <!--PUNchline-->
         <scene sceneID="BG6-Bn-6ot">
@@ -221,7 +221,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pRe-Vv-dZA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1748" y="378.26086956521743"/>
+            <point key="canvasLocation" x="3562.3188405797105" y="378.26086956521743"/>
         </scene>
         <!--Knock-->
         <scene sceneID="b3D-CE-Mlw">
@@ -257,7 +257,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qb2-Xa-1uZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="790" y="1084"/>
+            <point key="canvasLocation" x="1697.1014492753625" y="1083.4239130434783"/>
         </scene>
         <!--navigationController-->
         <scene sceneID="KO9-gz-m3H">
@@ -273,7 +273,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KUV-81-38E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1058" y="0.0"/>
+            <point key="canvasLocation" x="-1952" y="-29"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -287,15 +287,15 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="kUn-6U-7Kj" kind="relationship" relationship="viewControllers" id="IZc-OT-fZb"/>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="heG-rk-1gi" kind="relationship" relationship="viewControllers" id="ksQ-X9-ZPB"/>
+                        <segue destination="a7Y-vr-4LY" kind="relationship" relationship="viewControllers" id="55s-bn-8BQ"/>
+                        <segue destination="QlP-cM-wKM" kind="relationship" relationship="viewControllers" id="aET-B3-cBZ"/>
+                        <segue destination="6yk-0J-TYX" kind="relationship" relationship="viewControllers" id="LlD-Wt-GXc"/>
+                        <segue destination="Giz-g9-dBf" kind="relationship" relationship="viewControllers" id="4Ug-0l-dEl"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-1057" y="-29"/>
         </scene>
         <!--WhosThere-->
         <scene sceneID="nnn-N8-6Z0">
@@ -335,7 +335,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tXi-4z-Bpd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1672.8" y="1086.2068965517242"/>
+            <point key="canvasLocation" x="2579.7101449275365" y="1085.8695652173915"/>
         </scene>
         <!--knockknockName-->
         <scene sceneID="2Jg-wu-S46">
@@ -376,7 +376,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xYd-0w-tGV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2520" y="1098"/>
+            <point key="canvasLocation" x="3426.0869565217395" y="1097.2826086956522"/>
         </scene>
         <!--KnockKnockPun-->
         <scene sceneID="8O7-AT-PLP">
@@ -417,7 +417,7 @@
                     </view>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="3481" y="1114"/>
+            <point key="canvasLocation" x="4386.9565217391309" y="1113.5869565217392"/>
         </scene>
         <!--StartKnock-->
         <scene sceneID="uFz-EI-c3b">
@@ -445,11 +445,14 @@
                             <constraint firstItem="wYS-8n-Hc6" firstAttribute="centerY" secondItem="jkM-PT-yt4" secondAttribute="centerY" id="oGF-bz-f3P"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Knock Knock" image="first" selectedImage="first" id="Xzy-yb-LGY"/>
+                    <navigationItem key="navigationItem" id="1zS-ww-Kkt"/>
+                    <connections>
+                        <segue destination="tDu-0M-JQ7" kind="show" id="bqc-cE-Rg8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L6L-1p-8iO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-47.200000000000003" y="1084.4077961019491"/>
+            <point key="canvasLocation" x="859.4202898550725" y="1084.2391304347827"/>
         </scene>
         <!--Knock-->
         <scene sceneID="DFk-RH-0Bu">
@@ -486,6 +489,82 @@
             </objects>
             <point key="canvasLocation" x="503" y="1948"/>
         </scene>
+        <!--Dad-->
+        <scene sceneID="zPY-fs-qNx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a7Y-vr-4LY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Dad" image="first" selectedImage="first" id="s6C-6Z-U8T"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZyU-I7-qkS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="kUn-6U-7Kj" kind="relationship" relationship="rootViewController" id="u7J-t8-qh1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EVT-US-eMp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.27536231884062" y="-1060.5978260869565"/>
+        </scene>
+        <!--Good-->
+        <scene sceneID="J4B-vy-uzb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QlP-cM-wKM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Good" image="first" selectedImage="first" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ELN-eB-rEu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="ov3-3E-kOk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DVf-H6-rEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656.521739130435" y="-321.19565217391306"/>
+        </scene>
+        <!--Pun-->
+        <scene sceneID="hwa-nU-EAo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6yk-0J-TYX" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pun" image="first" selectedImage="first" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lrm-qI-HJ1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="djv-sD-EMW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GjR-xK-vyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1656.521739130435" y="358.69565217391306"/>
+        </scene>
+        <!--Knock Knock-->
+        <scene sceneID="026-xA-nwd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Giz-g9-dBf" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Knock Knock" image="first" selectedImage="first" id="Xzy-yb-LGY"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c8x-fj-Sva">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="heG-rk-1gi" kind="relationship" relationship="rootViewController" id="FyT-mB-3fm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cPe-hg-LLY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-47.826086956521742" y="1084.2391304347827"/>
+        </scene>
     </scenes>
     <resources>
         <image name="04f29ed457531d09b231b81a54dc5b03_do-you-remember-that-time-you-clipart-knock-on-door_195-195" width="195" height="195"/>
@@ -503,5 +582,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="5v1-nL-sL7"/>
         <segue reference="EPn-S0-L6O"/>
+        <segue reference="2sc-yc-91z"/>
     </inferredMetricsTieBreakers>
 </document>
