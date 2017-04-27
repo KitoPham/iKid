@@ -15,6 +15,8 @@
 		4997A1AF1EB196400067E476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4997A1AD1EB196400067E476 /* LaunchScreen.storyboard */; };
 		4997A1BA1EB196410067E476 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997A1B91EB196410067E476 /* iKidTests.swift */; };
 		4997A1C51EB196410067E476 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997A1C41EB196410067E476 /* iKidUITests.swift */; };
+		4997A1D31EB282B50067E476 /* KnockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997A1D21EB282B50067E476 /* KnockViewController.swift */; };
+		4997A1D51EB28EFE0067E476 /* WhosThereViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4997A1D41EB28EFE0067E476 /* WhosThereViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4997A1C01EB196410067E476 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4997A1C41EB196410067E476 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		4997A1C61EB196410067E476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4997A1D21EB282B50067E476 /* KnockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockViewController.swift; sourceTree = "<group>"; };
+		4997A1D41EB28EFE0067E476 /* WhosThereViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhosThereViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				4997A1A61EB196400067E476 /* SecondViewController.swift */,
 				4997A1A81EB196400067E476 /* Main.storyboard */,
 				4997A1AB1EB196400067E476 /* Assets.xcassets */,
+				4997A1D21EB282B50067E476 /* KnockViewController.swift */,
+				4997A1D41EB28EFE0067E476 /* WhosThereViewController.swift */,
 				4997A1AD1EB196400067E476 /* LaunchScreen.storyboard */,
 				4997A1B01EB196400067E476 /* Info.plist */,
 			);
@@ -266,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4997A1A71EB196400067E476 /* SecondViewController.swift in Sources */,
+				4997A1D31EB282B50067E476 /* KnockViewController.swift in Sources */,
 				4997A1A31EB196400067E476 /* AppDelegate.swift in Sources */,
+				4997A1D51EB28EFE0067E476 /* WhosThereViewController.swift in Sources */,
 				4997A1A51EB196400067E476 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +528,7 @@
 				4997A1CB1EB196410067E476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4997A1CC1EB196410067E476 /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +537,7 @@
 				4997A1CE1EB196410067E476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4997A1CF1EB196410067E476 /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +546,7 @@
 				4997A1D11EB196410067E476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
