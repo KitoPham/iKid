@@ -24,7 +24,7 @@ class KnockViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        if count < 2 {
+        if count < 3 {
             performSegue(withIdentifier: "toKnock", sender:self)
         } else {
             performSegue(withIdentifier: "whosthere", sender: self)
