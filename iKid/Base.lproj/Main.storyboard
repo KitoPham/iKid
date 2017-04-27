@@ -273,17 +273,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Knock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aR1-fr-vf4">
-                                <rect key="frame" x="163.5" y="323" width="48" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04f29ed457531d09b231b81a54dc5b03_do-you-remember-that-time-you-clipart-knock-on-door_195-195" translatesAutoresizingMaskIntoConstraints="NO" id="CrV-lo-dAF">
+                                <rect key="frame" x="35" y="19" width="304" height="628"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="aR1-fr-vf4" firstAttribute="centerY" secondItem="arD-BG-epd" secondAttribute="centerY" id="D3o-z9-T3H"/>
-                            <constraint firstItem="aR1-fr-vf4" firstAttribute="centerX" secondItem="arD-BG-epd" secondAttribute="centerX" id="Jx5-dp-8fL"/>
+                            <constraint firstItem="CrV-lo-dAF" firstAttribute="centerX" secondItem="arD-BG-epd" secondAttribute="centerX" id="Ylp-pi-nUr"/>
+                            <constraint firstItem="CrV-lo-dAF" firstAttribute="centerY" secondItem="arD-BG-epd" secondAttribute="centerY" id="ZgM-gu-nrH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CrV-lo-dAF" secondAttribute="trailing" constant="20" id="nvp-5J-ped"/>
+                            <constraint firstItem="Wxr-6U-zeW" firstAttribute="top" secondItem="CrV-lo-dAF" secondAttribute="bottom" constant="20" id="zzO-DC-ePw"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Knock Knock" selectedImage="first" id="nLU-fx-I94"/>
@@ -388,26 +387,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mikey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27M-4p-XYM">
-                                <rect key="frame" x="165" y="323" width="45" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pN-XL-04o">
-                                <rect key="frame" x="268" y="627" width="81" height="30"/>
+                                <rect key="frame" x="268" y="637" width="81" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="IN0-Y9-jgg"/>
+                                </constraints>
                                 <state key="normal" title="Mikey who?"/>
                                 <connections>
                                     <segue destination="LrP-Ao-Veh" kind="show" id="k5b-Vj-IYl"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c8565c25e9f1aefa6fdc059e8c77e567cbf733462c6355547cdc789d45f50e09_large" translatesAutoresizingMaskIntoConstraints="NO" id="Psb-bp-v5I">
+                                <rect key="frame" x="35" y="49" width="304" height="568"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="27M-4p-XYM" firstAttribute="centerX" secondItem="3kA-r7-gM6" secondAttribute="centerX" id="XoC-MC-qEW"/>
-                            <constraint firstItem="27M-4p-XYM" firstAttribute="centerY" secondItem="3kA-r7-gM6" secondAttribute="centerY" id="YS4-GT-rly"/>
+                            <constraint firstItem="Psb-bp-v5I" firstAttribute="centerX" secondItem="3kA-r7-gM6" secondAttribute="centerX" id="B3e-p8-DNw"/>
+                            <constraint firstItem="4pN-XL-04o" firstAttribute="top" secondItem="Psb-bp-v5I" secondAttribute="bottom" constant="20" id="Qfm-Q7-BTh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Psb-bp-v5I" secondAttribute="trailing" constant="20" id="Sff-dg-hDg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4pN-XL-04o" secondAttribute="trailing" constant="10" id="dfI-nj-7dR"/>
                             <constraint firstItem="M4e-Wq-iyY" firstAttribute="top" secondItem="4pN-XL-04o" secondAttribute="bottom" constant="10" id="lMq-q2-Dy5"/>
+                            <constraint firstItem="Psb-bp-v5I" firstAttribute="centerY" secondItem="3kA-r7-gM6" secondAttribute="centerY" id="ljg-5Z-Fc3"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -428,26 +429,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mikey doesn't fit in the keyhole" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjG-sc-LgM">
-                                <rect key="frame" x="69.5" y="323" width="236" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOZ-LF-IGx">
-                                <rect key="frame" x="315" y="627" width="34" height="30"/>
+                                <rect key="frame" x="315" y="637" width="34" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="yMB-HY-pNu"/>
+                                </constraints>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="FOk-Ll-Bhb" kind="show" id="EMX-7m-Ovq"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="220px-Wardedlock" translatesAutoresizingMaskIntoConstraints="NO" id="rqp-rk-iam">
+                                <rect key="frame" x="35" y="19" width="304" height="628"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="gjG-sc-LgM" firstAttribute="centerX" secondItem="WQt-bZ-zEn" secondAttribute="centerX" id="LRf-54-aPl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="FOZ-LF-IGx" secondAttribute="trailing" constant="10" id="SYj-LC-o09"/>
-                            <constraint firstItem="gjG-sc-LgM" firstAttribute="centerY" secondItem="WQt-bZ-zEn" secondAttribute="centerY" id="lGQ-FR-2H0"/>
+                            <constraint firstItem="u0b-aT-vN9" firstAttribute="top" secondItem="rqp-rk-iam" secondAttribute="bottom" constant="20" id="bHl-Rs-ze5"/>
+                            <constraint firstItem="rqp-rk-iam" firstAttribute="centerY" secondItem="WQt-bZ-zEn" secondAttribute="centerY" id="d8C-jN-wIf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rqp-rk-iam" secondAttribute="trailing" constant="20" id="h3W-Tr-vGa"/>
                             <constraint firstItem="u0b-aT-vN9" firstAttribute="top" secondItem="FOZ-LF-IGx" secondAttribute="bottom" constant="10" id="m4H-fO-Npo"/>
+                            <constraint firstItem="rqp-rk-iam" firstAttribute="centerX" secondItem="WQt-bZ-zEn" secondAttribute="centerX" id="qmv-RT-4TL"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -498,17 +501,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Knock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HQ-m9-b4l">
-                                <rect key="frame" x="163.5" y="323" width="48" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b14698d0c1264ae9ce3e5876423bcec0_girl-knocking-on-door-clipart-knock-on-door-clipart_987-1300" translatesAutoresizingMaskIntoConstraints="NO" id="OXs-8A-fD5">
+                                <rect key="frame" x="20" y="19" width="335" height="628"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="7HQ-m9-b4l" firstAttribute="centerX" secondItem="M1I-hW-owh" secondAttribute="centerX" id="MzO-r4-ueY"/>
-                            <constraint firstItem="7HQ-m9-b4l" firstAttribute="centerY" secondItem="M1I-hW-owh" secondAttribute="centerY" id="hkf-Xb-YZM"/>
+                            <constraint firstAttribute="bottom" secondItem="OXs-8A-fD5" secondAttribute="bottom" constant="20" id="0bA-1d-48y"/>
+                            <constraint firstAttribute="trailing" secondItem="OXs-8A-fD5" secondAttribute="trailing" constant="20" id="8MJ-ZT-icu"/>
+                            <constraint firstItem="OXs-8A-fD5" firstAttribute="centerX" secondItem="M1I-hW-owh" secondAttribute="centerX" id="Ha3-sn-Ndj"/>
+                            <constraint firstItem="OXs-8A-fD5" firstAttribute="centerY" secondItem="M1I-hW-owh" secondAttribute="centerY" id="tHc-Ly-HS5"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Knock Knock" selectedImage="first" id="irp-on-6oH"/>
@@ -524,10 +526,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="04f29ed457531d09b231b81a54dc5b03_do-you-remember-that-time-you-clipart-knock-on-door_195-195" width="195" height="195"/>
         <image name="080206_chickcar1" width="300" height="182"/>
+        <image name="220px-Wardedlock" width="220" height="243"/>
         <image name="GoodJoke" width="247" height="320"/>
         <image name="GoodJokeFinish" width="395" height="512"/>
+        <image name="b14698d0c1264ae9ce3e5876423bcec0_girl-knocking-on-door-clipart-knock-on-door-clipart_987-1300" width="987" height="1300"/>
         <image name="ballard-chicken-coop" width="350" height="232"/>
+        <image name="c8565c25e9f1aefa6fdc059e8c77e567cbf733462c6355547cdc789d45f50e09_large" width="625" height="415"/>
         <image name="first" width="30" height="30"/>
         <image name="unnamed" width="300" height="300"/>
         <image name="unnamedpuncline" width="300" height="300"/>
@@ -535,6 +541,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="5v1-nL-sL7"/>
         <segue reference="EPn-S0-L6O"/>
-        <segue reference="8ga-Da-2Wf"/>
+        <segue reference="EMX-7m-Ovq"/>
     </inferredMetricsTieBreakers>
 </document>
